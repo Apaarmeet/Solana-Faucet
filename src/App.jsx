@@ -17,6 +17,7 @@ import { clusterApiUrl } from "@solana/web3.js";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import  {Airdrop} from "./Airdrop";
 import { ShowBalance } from "./ShowBalance";
+import { SignMessage } from "./SignMessage";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             Hi there
             <Airdrop/>
             <ShowBalance/>
+            <SignMessage/>
           
           </div>
 
